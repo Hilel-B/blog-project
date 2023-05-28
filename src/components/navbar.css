@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    margin-top: 1em;
+    padding-bottom: 2em;
+    border-bottom: solid 1px;
+}
+
+.navbar-username{
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.navbar-links{
+    display: flex;
+}
+
+.navbar-links a{
+    margin: 0 0.3em;
+}
+
+.navbar-theme-button{
+    font-size: 1.3em;
+    margin-left: 0.5em;
+}
