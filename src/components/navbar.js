@@ -23,7 +23,7 @@ class Navbar{
         ]
     }
     init(){
-        document.querySelector('body').insertAdjacentHTML('afterbegin', `
+        document.querySelector('.header').insertAdjacentHTML('afterbegin', `
         <div class='navbar'>
             <div class='navbar-username'>${this.username}</div>
             <div class='navbar-links'></div>

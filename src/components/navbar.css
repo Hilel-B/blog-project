@@ -1,3 +1,4 @@
+
 .navbar{
     display: flex;
     margin-top: 1em;
@@ -15,7 +16,13 @@
 }
 
 .navbar-links a{
-    margin: 0 0.3em;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin: 0 0.5em;
+    transition: transform 0.5s;
+}
+.navbar-links a:hover{
+    transform: scale(1.2);
 }
 
 .navbar-theme-button{
